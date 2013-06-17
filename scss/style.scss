@@ -1,0 +1,108 @@
+/*!
+Theme Name: Uzi Listening 2013
+Theme URI: http://garethcooper.com/?p=1345
+Author: Gareth Cooper
+Author URI: http://garethcooper.com/
+Description: Theme for Uzi Listening website
+Version: 0.0.1
+License: GNU General Public License
+License URI: license.txt
+Tags: custom-menu, sticky-post, microformats, post-formats, custom-header
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import "base";
+
+html {
+	background: black;
+}
+
+body {
+	font-family: '1942report1942report', monospaced;
+	font-family: 'SpecialEliteRegular', monospaced;
+	color: black;
+}
+
+h1 {
+	font-size: 140%;
+	line-height: 1.2em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	
+	&:hover {
+		color: $link;
+	}
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	padding-bottom: .5em;
+}
+
+.card {
+	background-color: white;
+	padding: 20px;
+	margin: 3em auto;
+	position: relative;
+	width: 800px;
+	max-width: 100%;
+	box-sizing: border-box;
+	
+	&:first-of-type {
+		margin-top: 1em;
+	}
+	
+	h1 {
+		@include text-shadow(2px 2px 2px rgba(0,0,0,.2));
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: white;
+		padding: .2em .5em;
+		margin: 20px;
+		border-bottom-right-radius: 2px;
+	}
+
+	p {
+		padding: .5em 0;
+		
+		&:last-of-type {
+			padding-bottom: 0;
+		}
+	}
+}
+
+.floater {
+	position: absolute;
+	background: white;
+	background: rgba(255, 255, 255, .9);
+	padding: .2em .8em .2em .1em;
+	border-radius: 5px;
+	
+	&:hover {
+		background-color: rgba(0,0,0,.9);
+		
+		a {
+			color: $link;
+		}
+		
+		img {
+			-webkit-filter: invert(100%);  
+		}
+	}
+}
+
+::selection {
+	color: white;
+	background-color: black;
+}
+::-moz-selection {
+	color: white;
+	background-color: black;
+}

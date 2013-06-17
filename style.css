@@ -1,0 +1,217 @@
+@import url(./fonts/1942/stylesheet.css);
+@import url(./fonts/specialelite/stylesheet.css);
+/*
+Theme Name: Uzi Listening 2013
+Theme URI: http://garethcooper.com/?p=1345
+Author: Gareth Cooper
+Author URI: http://garethcooper.com/
+Description: Theme for Uzi Listening website
+Version: 0.0.1
+License: GNU General Public License
+License URI: license.txt
+Tags: custom-menu, sticky-post, microformats, post-formats, custom-header
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/* YUI 3.9.1 (build 5852) Copyright 2013 Yahoo! Inc. http://yuilibrary.com/license/ */
+/* line 2, scss/_yui3-reset.scss */
+html {
+  color: #000;
+  background: #FFF;
+}
+
+/* line 2, scss/_yui3-reset.scss */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2, scss/_yui3-reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 2, scss/_yui3-reset.scss */
+fieldset, img {
+  border: 0;
+}
+
+/* line 2, scss/_yui3-reset.scss */
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 2, scss/_yui3-reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 2, scss/_yui3-reset.scss */
+caption, th {
+  text-align: left;
+}
+
+/* line 2, scss/_yui3-reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* line 2, scss/_yui3-reset.scss */
+q:before, q:after {
+  content: '';
+}
+
+/* line 2, scss/_yui3-reset.scss */
+abbr, acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+/* line 2, scss/_yui3-reset.scss */
+sup {
+  vertical-align: text-top;
+}
+
+/* line 2, scss/_yui3-reset.scss */
+sub {
+  vertical-align: text-bottom;
+}
+
+/* line 2, scss/_yui3-reset.scss */
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* line 2, scss/_yui3-reset.scss */
+input, textarea, select {
+  *font-size: 100%;
+}
+
+/* line 2, scss/_yui3-reset.scss */
+legend {
+  color: #000;
+}
+
+/* line 2, scss/_yui3-reset.scss */
+#yui3-css-stamp.cssreset {
+  display: none;
+}
+
+/* line 61, ../../../../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 106.25%;
+}
+
+/* line 64, ../../../../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 17px;
+  line-height: 1.41176em;
+}
+
+/* line 18, scss/style.scss */
+html {
+  background: black;
+}
+
+/* line 22, scss/style.scss */
+body {
+  font-family: '1942report1942report', monospaced;
+  font-family: 'SpecialEliteRegular', monospaced;
+  color: black;
+}
+
+/* line 28, scss/style.scss */
+h1 {
+  font-size: 140%;
+  line-height: 1.2em;
+}
+
+/* line 33, scss/style.scss */
+a {
+  text-decoration: none;
+  color: black;
+}
+/* line 37, scss/style.scss */
+a:hover {
+  color: #ff6600;
+}
+
+/* line 42, scss/style.scss */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  padding-bottom: .5em;
+}
+
+/* line 48, scss/style.scss */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 3em auto;
+  position: relative;
+  width: 800px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+/* line 57, scss/style.scss */
+.card:first-of-type {
+  margin-top: 1em;
+}
+/* line 61, scss/style.scss */
+.card h1 {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  padding: .2em .5em;
+  margin: 20px;
+  border-bottom-right-radius: 2px;
+}
+/* line 72, scss/style.scss */
+.card p {
+  padding: .5em 0;
+}
+/* line 75, scss/style.scss */
+.card p:last-of-type {
+  padding-bottom: 0;
+}
+
+/* line 81, scss/style.scss */
+.floater {
+  position: absolute;
+  background: white;
+  background: rgba(255, 255, 255, 0.9);
+  padding: .2em .8em .2em .1em;
+  border-radius: 5px;
+}
+/* line 88, scss/style.scss */
+.floater:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+/* line 91, scss/style.scss */
+.floater:hover a {
+  color: #ff6600;
+}
+/* line 95, scss/style.scss */
+.floater:hover img {
+  -webkit-filter: invert(100%);
+}
+
+/* line 101, scss/style.scss */
+::selection {
+  color: white;
+  background-color: black;
+}
+
+/* line 105, scss/style.scss */
+::-moz-selection {
+  color: white;
+  background-color: black;
+}
